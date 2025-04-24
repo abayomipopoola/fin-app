@@ -1,0 +1,42 @@
+{
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnPaste": true,
+  "editor.formatOnSave": true,
+  "[yaml]": {
+    "editor.insertSpaces": true,
+    "editor.tabSize": 2,
+    "editor.autoIndent": "none"
+  },
+  "chat.promptFiles": true,
+  "chat.promptFilesLocations": {
+    ".github/prompts": true,
+    ".vscode/prompts": true
+  },
+  "github.copilot.chat.codeGeneration.instructions": [
+    {
+      "file": ".vscode/rules/javascript/coding-guidelines.md"
+    },
+    {
+      "file": ".vscode/rules/javascript/coding-style.md"
+    }
+  ],
+  "github.copilot.chat.commitMessageGeneration.instructions": [
+    {
+      "file": ".vscode/rules/git-message.md"
+    }
+  ],
+  "github.copilot.chat.reviewSelection.enabled": true,
+  "github.copilot.chat.reviewSelection.instructions": [
+    {
+      "file": ".vscode/rules/javascript/coding-guidelines.md"
+    },
+    {
+      "file": ".vscode/rules/javascript/coding-style.md"
+    }
+  ],
+  "github.copilot.chat.testGeneration.instructions": [
+    {
+      "file": ".vscode/rules/javascript/testing-vitest.md"
+    }
+  ]
+}
